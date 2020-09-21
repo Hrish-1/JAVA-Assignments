@@ -3,6 +3,7 @@ class calcSeries{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
+        sc.close();
         int n = x * 10 + 2;
         int sum = 0;
         if(n > 12){

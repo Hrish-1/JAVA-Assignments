@@ -9,6 +9,7 @@ class descSort{
              int a = sc.nextInt();
              arr.add(a);     
         }
+        sc.close();
         Collections.sort(arr, Collections.reverseOrder());
         for(int a : arr){
             System.out.print(a+" ");
