@@ -1,5 +1,5 @@
 import java.util.*; 
-class descSort{
+class q22_descSort{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> arr = new ArrayList<Integer>(5); 

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class SmLg{
+class q27_SmLg{
         void sort(int[] arr){
             int n = arr.length;
             for(int i = 0; i < n - 1; i++){
@@ -22,7 +22,8 @@ class SmLg{
             for(int i = 0; i < n; i++){
                 arr[i] = sc.nextInt();
             }
-            SmLg x = new SmLg();
+            sc.close();
+            q27_SmLg x = new q27_SmLg();
             x.sort(arr);
             System.out.print("min element : "+arr[0]+"\nmax element : "+arr[n-1]+"\n");
         }

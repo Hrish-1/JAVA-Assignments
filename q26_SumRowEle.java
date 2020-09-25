@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class SumRowEle{
+class q26_SumRowEle{
     public static void main(String[] args) {
             int arr[][] = new int[5][17];
             int sum = 0;
@@ -10,6 +10,7 @@ class SumRowEle{
                     sum += arr[i][j];
                 }
             }
+            sc.close();
             System.out.println(sum);
     }
 }

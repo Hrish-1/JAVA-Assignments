@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.lang.Math;
-class primeNumber{
+class q18_primeNumber{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();

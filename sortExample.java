@@ -1,20 +1,21 @@
-import java.util.Arrays; 
-import java.util.Collections;
-import java.util.Scanner; 
-  
+import java.util.*; 
 public class sortExample 
 { 
     public static void main(String[] args) 
     { 
-        Scanner sc = new Scanner(System.in);
-        Array arr = new int[5]; 
-         for(int i = 0; i < arr.length; i++){
-             arr[i] = sc.nextInt();
+        int n = 5; 
+        ArrayList<Integer> arr = new ArrayList<Integer>(n); 
+         for(int i = 0; i < n; i++){
+             arr.add(i);
          }
         // Sorts arr[] in descending order 
-        Arrays.sort(arr, Collections.reverseOrder()); 
+        Collections.sort(arr, Collections.reverseOrder()); 
   
-        System.out.printf("Modified arr[] : %s", 
-                          Arrays.toString(arr)); 
-    } 
+        // for (int i = 0; i < arr.size(); i++) 
+        //     System.out.print(arr.get(i) + " "); 
+        // } 
+         for(int a : arr){
+             System.out.print(a+" ");
+         } 
 }
+} 

@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
-class salary{
+class q12_salary{
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Employee's salary : ");	
 		double Salary = sc.nextDouble();
+		sc.close();
 		double HRA = 0;
 		double DA = 0;
 		if(Salary < 1000){

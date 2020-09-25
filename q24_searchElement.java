@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class searchElement{
+class q24_searchElement{
     public static void main(String[] args){
        Scanner sc = new Scanner(System.in);
        int[] arr = new int[5];
@@ -8,6 +8,7 @@ class searchElement{
        for(int i = 0; i < arr.length; i++){
            arr[i] = sc.nextInt();
        }
+       sc.close();
        System.out.println("Enter number to be searched");
        int x = sc.nextInt();
        for(int i = 0; i < arr.length; i++){
