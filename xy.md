@@ -32,9 +32,50 @@
 ### LAMBDA-EXPRESSION
  - Mechanism that allows functional programming.
 
-# PACKAGE
+### PACKAGE
 - grouping similar classes.
 
+### VARARG 
+- d
+
+### WRAPPER CLASSES
+- class that provides wrapper around any primitive value to make it an object.
+
+- primitive types |  wrapper types
+  boolean         |  Boolean
+  char            |  Character
+  int             |  Integer
+  byte            |  Byte
+  short           |  Short
+  long            |  Long
+  float           |  Float
+  double          |  Double
+
+
+primitive approach : int i  = 10;
+
+                        i
+                      | 10 | 
+
+wrapper class approach : Integer i = new Integer(10);
+                       
+                           i ------          ab23
+                        | ab23 |   |----->(   10   )
+
+* boxing is a process of converting a primitive data type into a wrapper class object.
+* int i = 10;
+  Integer r = new Integer(i); -> boxing
+* Integer r1 = Integer.valueOf(i); -> boxing
+* Integer r2 = 10; -> auto-boxing
+
+* unboxing is a process of converting wrapper to primitive type
+* Integer r = new Integer(12);
+  int i = r.intValue();
+
+* int j = new Integer(56); -> auto unboxing
+
+### Generics
+- Creating common class which can be used for different types
 
 
 
