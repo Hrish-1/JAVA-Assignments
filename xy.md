@@ -77,6 +77,19 @@ wrapper class approach : Integer i = new Integer(10);
 ### Generics
 - Creating common class which can be used for different types
 
+### COLLECTION FRAMEWORK
+- A framework(set of classes) to creaete dynamic collection to store similar or dissimilar data elements.
+- primitive values cannot be stored, only objects can be stored.
+                        Collection
+                           |
+  -----------------------------------------------------------
+  |                                                         |
+ List                                                      Set
+ |-> ArrayList                                              |->HashSet
+ |-> LinkedList                                             |->TreeSet
+
+
+
 
 
 
