@@ -1,0 +1,26 @@
+51.	Create a program that helps banks to maintain records.
+It should have following facilities. 
+a. Anybody can create current or saving account with following initial information: account number, name, balance, and branch. 
+b. display account detail for a particular accounts.
+c. display total money deposited in bank.
+d. allow deposit and  withdrawal in an account  
+e. for saving account opening balance and minimum balance must be 5000.
+f. for current account opening balance and minimum balance must be 1000.
+g. can not withdraw the amount from the account that makes balance less than the minimum balance.
+
+52.	Input name of a person and count how many vowels it contains.  Use String class functions. 
+53.	Input data exactly in the following format, and print sum of all integer values. “67, 89, 23, 67, 12, 55, 66”.   (Hint use String class split method and Integer class parseInt method) .
+54.	Write a program to reverse the given String.
+55.	Write a program to count no of words in the String.
+56.	Write a program to convert very first character of every word in uppercase in a String.
+57.	Write a program to reverse every word of the String.
+58.	Store name of weekdays in an array (starting from “Sunday” at 0 index). Ask day position from user and print day name. Handle array index out of bound exception and give proper message if user enter day index outside range (0-6). 
+59.	Create a class Voter(voterId, name, age) with parameterized constructor.  The parameterized constructor should throw a checked exception if age is less than 18. The message of exception is “invalid age for voter ” 
+60.	Create Interface StudentFee and declare following method.  getFee() throws InvalidFeeException. This method ask fees from user and throws exception if user enters invalid or negative fees Create class Student with members (name, fees) and implement the StudentFee Interface.
+61.	Create a Thread class to print following star (*) pattern on screen with delay of 1 second between each * print. Number of lines in the pattern should be passed to the constructor of Thread class.  *  * * * *  * * * * * * * * * * Use this class in main method and ask user to enter number of lines to print.
+62.	Create a class that checks whether a given number is prime or not using  Runnable interface.
+63.	Write a program to count how many times character ‘t’ occurs in a file. 
+64.	Write a program to count no of words in a text file and average word size.
+65.	Write a program to count number of bytes in a image file(jpeg/png/gif).  Also find how much time it will take to upload the file on server if internet speed is 256 bps(bits per second).
+66.	Write a program to store your shopping details in a binary file(shopping.dat) with information itemName, price, quantity. (Use ObjectOutputStream to store Item class object ).
+67.	Write a program to read data from shopping.dat file creted in above problem and find total money spent on all shopping items. . (Use ObjectInputStream to read Item class object).

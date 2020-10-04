@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 
 /*
@@ -50,5 +51,6 @@ public static void main(String[] args){
     for(q50_EmpInfo x : arr){
         System.out.println(x.toString());
     }
+    sc.close();
 }
 }

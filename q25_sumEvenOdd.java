@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.*;
 class q25_sumEvenOdd{
     public static void main(String[] args){

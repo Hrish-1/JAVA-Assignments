@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 class q20_primeNumbers{
     public static void main(String[] args){

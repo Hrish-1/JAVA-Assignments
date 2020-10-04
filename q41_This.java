@@ -1,11 +1,12 @@
-class This{
-    This(){
+package Assignments;
+class This1{
+    This1(){
         this(69);
     }
-    This(int i){
+    This1(int i){
         System.out.println("Value of i is "+i);
     }
     public static void main(String[] args){
-        This t = new This();
+        new This1();
     }
 }

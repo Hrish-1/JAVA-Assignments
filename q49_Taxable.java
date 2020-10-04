@@ -1,17 +1,18 @@
+package Assignments;
 interface Taxable{
     double salesTax = 0.7;
     double incomeTax = 0.105;
 
     void calcTax();
 }
-class Employee implements Taxable{
+class Employee4 implements Taxable{
     int empid;
     int salary;
     String name;
 
-    Employee(){}
+    Employee4(){}
 
-    Employee(int empid,int salary,String name){
+    Employee4(int empid,int salary,String name){
         this.empid = empid;
         this.salary = salary;
         this.name = name;
@@ -22,14 +23,14 @@ class Employee implements Taxable{
         System.out.println("income tax "+incomeTax1); 
     }
 }
-class Product implements Taxable{
+class Product4 implements Taxable{
     int pid;
     int price;
     int quantity;
 
-    Product(){}
+    Product4(){}
 
-    Product(int pid,int price,int quantity){
+    Product4(int pid,int price,int quantity){
         this.pid = pid;
         this.price = price;
         this.quantity = quantity;
@@ -41,8 +42,8 @@ class Product implements Taxable{
 }
 class Main{
     public static void main(String[] args){
-        Taxable t = new Employee(1,25000,"Rex");
-        Taxable t1 = new Product(101,5600,4);
+        Taxable t = new Employee4(1,25000,"Rex");
+        Taxable t1 = new Product4(101,5600,4);
         t.calcTax();
         t1.calcTax();
     }

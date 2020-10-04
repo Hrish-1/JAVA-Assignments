@@ -1,8 +1,10 @@
+package Assignments;
 import java.util.Scanner;
 class reverseArray{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        sc.close();
         int arr[] = new int[n];
         
         for(int i = 0; i < arr.length; i++){

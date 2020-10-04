@@ -1,3 +1,4 @@
+package Assignments;
 class Person{
     String name;
     int age;

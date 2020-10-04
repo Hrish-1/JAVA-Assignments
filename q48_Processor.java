@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 abstract class Processor{
     int data;
@@ -17,13 +18,13 @@ class Factorial extends Processor{
     }
    
 }
-class Circle extends Processor{
+class Circle1 extends Processor{
     void process(int r){
         double area  = 3.14 * r * r;
         System.out.println("Area "+area);
     }
 }
-class Demo{
+class Demo2{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your choice");
@@ -32,11 +33,12 @@ class Demo{
             case 1 : Processor p = new Factorial();
                      p.process(5);
                      break;
-            case 2 : Processor c = new Circle();
+            case 2 : Processor c = new Circle1();
                      c.process(4);
                      break;
             default : System.out.println("Invalid choice");
                        //break; 
         }
+        sc.close();
     }
 }

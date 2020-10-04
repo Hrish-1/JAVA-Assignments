@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 
 class q12_salary{

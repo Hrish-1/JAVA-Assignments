@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 class q21_sumNAvg{
     public static void main(String[] args){

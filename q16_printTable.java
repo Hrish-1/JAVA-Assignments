@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 public class q16_printTable{
     public static void main(String[] args){

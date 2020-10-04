@@ -81,10 +81,10 @@ wrapper class approach : Integer i = new Integer(10);
 - A framework(set of classes) to creaete dynamic collection to store similar or dissimilar data elements.
 - primitive values cannot be stored, only objects can be stored.
                         Collection
-                           |
+                           |(extends)
   -----------------------------------------------------------
   |                                                         |
- List                                                      Set
+ List(implemennts)                                          Set(implements)
  |-> ArrayList                                              |->HashSet
  |-> LinkedList                                             |->TreeSet
 

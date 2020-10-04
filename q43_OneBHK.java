@@ -1,3 +1,4 @@
+package Assignments;
 class OneBHK{
     float roomArea;
     float hallArea;

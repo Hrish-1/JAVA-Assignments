@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 class q24_searchElement{
     public static void main(String[] args){

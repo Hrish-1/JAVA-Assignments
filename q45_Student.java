@@ -1,10 +1,11 @@
+package Assignments;
 import java.util.Scanner;
-class Student{
+class q45_Student{
     String rollno;
     double percentage;
 
-    Student(){}
-    Student(String rollno,double percentage){
+    q45_Student(){}
+    q45_Student(String rollno,double percentage){
         this.rollno = rollno;
         this.percentage = percentage;
     }
@@ -13,12 +14,12 @@ class Student{
         System.out.println("percentage "+percentage);
     }
 }
-class CollegeStudent extends Student{
+class Collegeq45_Student extends q45_Student{
       int semester;
 
-      CollegeStudent(){}
+      Collegeq45_Student(){}
 
-      CollegeStudent(String rollno,double percentage,int semester){
+      Collegeq45_Student(String rollno,double percentage,int semester){
           super(rollno,percentage);
           this.semester = semester;
       }
@@ -28,12 +29,12 @@ class CollegeStudent extends Student{
           System.out.println("semester "+semester);
       }
 }
-class SchoolStudent extends Student{
+class Schoolq45_Student extends q45_Student{
     String className;
 
-    SchoolStudent(){}
+    Schoolq45_Student(){}
 
-    SchoolStudent(String rollno,double percentage,String className){
+    Schoolq45_Student(String rollno,double percentage,String className){
         super(rollno,percentage);
         this.className = className;
     }
@@ -43,42 +44,43 @@ class SchoolStudent extends Student{
         System.out.println("class name "+className);
     }
 }
-class Demo{
-    static void checkrno(String rno,Student[] s){
+class Demo1{
+    static void checkrno(String rno,q45_Student[] s){
         int i = 0;
-      for(Student x : s){
+      for(q45_Student x : s){
           if(x.rollno.equals(rno) && i < 2){
-              System.out.println(rno+" belongs to CollegeStudent");
+              System.out.println(rno+" belongs to Collegeq45_Student");
           }else if(x.rollno.equals(rno)){
-              System.out.println(rno+" belongs to SchoolStudent");
+              System.out.println(rno+" belongs to Schoolq45_Student");
           }
           i++;
       }  
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        Student[] s = new Student[5];
+        q45_Student[] s = new q45_Student[5];
         for(int i = 0; i < 5; i++){
             if(i < 2){
                 String a = sc.next();
                 double b = sc.nextDouble();
                 int c = sc.nextInt();
-                s[i] = new CollegeStudent(a,b,c);
+                s[i] = new Collegeq45_Student(a,b,c);
             }else{
                 String a = sc.next();
                 double b = sc.nextDouble();
                 String s1 = sc.next();
-                s[i] = new SchoolStudent(a,b,s1);
+                s[i] = new Schoolq45_Student(a,b,s1);
             }
         }
-        System.out.println("Students having A grade");
-        for(Student x : s){
+        System.out.println("q45_Students having A grade");
+        for(q45_Student x : s){
             if(x.percentage > 75){
                 System.out.println(x.rollno);
             }
         }
         System.out.println("Enter rollno");
         String rno = sc.next();
-        Demo.checkrno(rno,s); 
+        Demo1.checkrno(rno,s); 
+        sc.close();
     }
 }

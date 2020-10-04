@@ -1,9 +1,10 @@
-class Student{
+package Assignments;
+class q32_Student{
     private String name;
     private int rno;
     static int count;
 
-    Student(){
+    q32_Student(){
         count++;
     }
 
@@ -17,8 +18,8 @@ class Student{
         System.out.println("no of objects : "+count);
     }
     public static void main(String[] args){
-        Student s = new Student();
-        Student s1 = new Student();
+        q32_Student s = new q32_Student();
+        q32_Student s1 = new q32_Student();
         s.setData("Zack",69);
         s1.setData("Harold",420);
         s.showData();

@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 class q17_revNum{
     public static void main(String[] args) {

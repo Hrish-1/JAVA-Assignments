@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 class q19_calcSeries{
     public static void main(String[] args){

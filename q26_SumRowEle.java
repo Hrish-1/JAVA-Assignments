@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 class q26_SumRowEle{
     public static void main(String[] args) {

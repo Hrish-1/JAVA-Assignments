@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 import java.lang.Math;
 class q18_primeNumber{

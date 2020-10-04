@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 class q27_SmLg{
         void sort(int[] arr){
