@@ -1,7 +1,6 @@
 package Assignments;
 
 import java.util.Scanner;
-
 /*
 60.	Create Interface StudentFee and declare following method.  getFee() throws InvalidFeeException.
  This method ask fees from user and throws exception if user enters invalid or negative fees 
